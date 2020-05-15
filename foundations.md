@@ -99,6 +99,10 @@ Function `float` converts a string to a floating-point number.
 Function [`round`](https://docs.python.org/3/library/functions.html#round)
 changes the precision of a floating-point number or converts it to an integer.
 
+- [Euler's Number](https://open.kattis.com/problems/eulersnumber) (6 LOC):
+  Approximate Euler's number through a series of factorials.
+  Doesn't require mathematical knowledge. Just implement the given formula.
+
 - [Roaming Romans](https://open.kattis.com/problems/romans) (5 LOC):
   Convert English miles to Roman paces.
   Requires some care because Python rounds floats to the nearest even integer, not necessarily up.
