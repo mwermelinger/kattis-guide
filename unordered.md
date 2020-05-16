@@ -1,7 +1,32 @@
 # Unordered collections
 
-These problems can be solved using unordered collections,
+These problems can be solved with collections
 in which the order of items doesn't matter.
+
+## Dictionaries
+
+A dictionary (or hash table) is an unordered collection of key-value pairs
+with unique keys. Dictionaries allow quick access to a value by key.
+Dictionaries are useful to map one collection of items to another.
+
+Python has a built-in dictionary type.
+If the keys are integers from a known range, a list may suffice.
+
+- [Relocation](https://open.kattis.com/problems/relocation) (8 LOC):
+  Keep track of companies relocating to a different number in the same street
+  and determine the distance (number of doors) between any two companies.
+
+- [Preludes](https://open.kattis.com/problems/chopin) (15 LOC):
+  Print the alternate name for a musical key, e.g. Gb major -> F# major.
+  The problem description explains all you need to know.
+
+- [Linden Mayor System](https://open.kattis.com/problems/lindenmayorsystem)
+  (9 LOC):  A simple simulation of a computational biology system, the
+  [L-system](https://en.wikipedia.org/wiki/L-system). Needs string processing.
+
+- [Metaprogramming](https://open.kattis.com/problems/metaprogramming)
+  (24 LOC):  An interpreter for simple integer comparisons.
+  Requires some string processing: `split` and string comparison.
 
 ## Sets
 
