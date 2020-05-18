@@ -99,6 +99,10 @@ Function `float` converts a string to a floating-point number.
 Function [`round`](https://docs.python.org/3/library/functions.html#round)
 changes the precision of a floating-point number or converts it to an integer.
 
+- [Pizza Crust](https://open.kattis.com/problems/pizza2) (2 LOC):
+  What percentage of a pizza has cheese, knowing the width of the crust?
+  No if-statements or loops.
+
 - [Euler's Number](https://open.kattis.com/problems/eulersnumber) (6 LOC):
   Approximate Euler's number through a series of factorials.
   Doesn't require mathematical knowledge. Just implement the given formula.
@@ -106,6 +110,11 @@ changes the precision of a floating-point number or converts it to an integer.
 - [Roaming Romans](https://open.kattis.com/problems/romans) (5 LOC):
   Convert English miles to Roman paces.
   Requires some care because Python rounds floats to the nearest even integer, not necessarily up.
+
+- [Herman](https://open.kattis.com/problems/herman) (4 LOC):
+  What is the area of a circle in normal and in Manhattan/taxi geometry?
+  Use `math.pi` for the former. Draw on grid paper to see the latter.
+  No if-statements or loops.
 
 ## Strings
 
