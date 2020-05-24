@@ -13,5 +13,5 @@ usually an array.
   the temperature on days n and n+2?
 
 - [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) (14 LOC):
-  Count how many 6-digit PINs have distict digits and
+  Count how many 6-digit PINs have distinct digits and
   are divisible by each of their digits.

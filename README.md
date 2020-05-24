@@ -1,23 +1,28 @@
 # A Guide to Kattis Problems
 
 [Kattis](https://open.kattis.com)
-is a competitive programming platform with a clean and modern interface.
-Users can register with their Azure, Facebook, Google or LinkedIn accounts,
-if they wish.
-Users can submit their solutions in about 20 different programming languages.
-Kattis runs each submission against hidden tests.
-If all tests pass, the user gets the points associated to that problem.
-Each user's points contribute to the points of their country and school.
-The [help page](https://open.kattis.com/help) has more details
-on how to submit, the possible error messages, and the scoring system.
-Users solve problems at their leisure but may also participate in time-limited
-contests, each with a selection of Kattis problems.
-
+is a programming platform with a clean and modern interface.
 Problems on Kattis and similar platforms
 cover many algorithms and data structures,
 and they are good practice to pay attention to details,
 separate the wheat from the chaff in a problem description,
 and think of edge cases where the algorithm may fail.
+
+Users can register on Kattis with their Azure, Facebook, Google or LinkedIn
+accounts, if they wish.
+Users can submit their solutions in about 20 different programming languages.
+Users solve problems at their leisure but may also participate in time-limited
+contests, each with a selection of Kattis problems.
+
+Kattis runs each submission against hidden tests.
+If all tests pass, the user gets the points associated to that problem.
+Each user's points also contribute to the points of their country and school.
+Users, schools and countries are ranked by their points.
+Many users don't solve any problem after registering on Kattis.
+If you solve just a couple of easy problems
+you'll climb thousands of places in the rankings.
+The [help page](https://open.kattis.com/help) has more details
+on how to submit, the possible outcomes, and the scoring system.
 
 Kattis has over 2500 problems from many
 [competitions and training sessions](https://open.kattis.com/problem-sources),
@@ -27,7 +32,6 @@ Here I classify some problems according to the algorithmic approach or
 data structure I used to solve the problem.
 I hope this helps you select problems that are appropriate to your knowledge
 or your students'.
-
 I aim to list around 5 problems for each algorithm or data structure,
 by order of difficulty, according to my judgement. Your mileage may vary.
 

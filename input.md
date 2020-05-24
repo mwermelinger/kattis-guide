@@ -137,8 +137,9 @@ method, which removes all whitespace from the right end of a string.
 Some problems require the output to be formatted in a special way,
 e.g. without a space between values, or with a certain number of digits after the decimal point.
 
-The easiest way to cope with many such cases is to learn using Python's
-f-strings.
+If output items are not separated by spaces, you can use `print(..., end='')` or
+string concatenation. However, often the easiest way to cope with much of output
+formatting is to use Python's f-strings.
 
 - [Statistics](https://open.kattis.com/problems/statistics) (8 LOC):
 Compute the highest, lowest and range of the given values.

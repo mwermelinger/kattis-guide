@@ -10,23 +10,25 @@ with unique keys. Dictionaries allow quick access to a value by key.
 Dictionaries are useful to map one collection of items to another.
 
 Python has a built-in dictionary type.
-If the keys are integers from a known range, a list may suffice.
+If the keys are integers from a known range, a list may suffice,
+with the indices being the keys.
 
-- [Relocation](https://open.kattis.com/problems/relocation) (8 LOC):
-  Keep track of companies relocating to a different number in the same street
-  and determine the distance (number of doors) between any two companies.
+1. [Relocation](https://open.kattis.com/problems/relocation) (8 LOC):
+Keep track of companies relocating to a different number on the same street
+and determine the distance (number of doors) between any two companies.
 
-- [Preludes](https://open.kattis.com/problems/chopin) (15 LOC):
-  Print the alternate name for a musical key, e.g. Gb major -> F# major.
-  The problem description explains all you need to know.
+1. [Preludes](https://open.kattis.com/problems/chopin) (15 LOC):
+Print the alternate name for a musical key, e.g. Gb major -> F# major.
+The problem description explains all you need to know.
 
-- [Linden Mayor System](https://open.kattis.com/problems/lindenmayorsystem)
-  (9 LOC):  A simple simulation of a computational biology system, the
-  [L-system](https://en.wikipedia.org/wiki/L-system). Needs string processing.
+1. [Linden Mayor System](https://open.kattis.com/problems/lindenmayorsystem)
+(9 LOC):  A simple simulation of a computational biology system, the
+[L-system](https://en.wikipedia.org/wiki/L-system).
+The problem description explains all you need to know. Needs string processing.
 
-- [Metaprogramming](https://open.kattis.com/problems/metaprogramming)
-  (24 LOC):  An interpreter for simple integer comparisons.
-  Requires some string processing: `split` and string comparison.
+1. [Metaprogramming](https://open.kattis.com/problems/metaprogramming)
+(24 LOC):  An interpreter for simple integer comparisons.
+Requires some string processing.
 
 ## Sets
 
@@ -39,24 +41,22 @@ Sets are useful if we need:
 Python has a builtin set type.
 If the set has only integers, a list of Booleans may suffice.
 
-- [Booking a Room](https://open.kattis.com/problems/bookingaroom) (5 LOC):
-  Given the already booked rooms, and knowing the capacity of the hotel,
-  find an available room.
+1. [Booking a Room](https://open.kattis.com/problems/bookingaroom) (5 LOC):
+Given the already booked rooms, and knowing the capacity of the hotel,
+find an available room.
 
-- [Free Food](https://open.kattis.com/problems/freefood) (6 LOC):
-  Given several ranges of days, how many days are they in total?
+1. [Free Food](https://open.kattis.com/problems/freefood) (6 LOC):
+Given several ranges of days, how many days are there in total?
 
-- [Saving Princess Peach](https://open.kattis.com/problems/princesspeach)
-  (7 LOC): Which obstacles has Super Mario missed? Requires sorting.
+1. [Saving Princess Peach](https://open.kattis.com/problems/princesspeach)
+(7 LOC): Which obstacles has Super Mario missed? Requires sorting.
 
-- [CD](https://open.kattis.com/problems/cd) (7 LOC):
-  Given two collections of CDs, which are duplicate?
-  Due to the number of CDs, requires fast input reading:
-  use `stdin.readline()` instead of `input()`.
+1. [CD](https://open.kattis.com/problems/cd) (7 LOC):
+See the [Input and Output](input.md) section for details.
 
-- [Jolly Jumpers](https://open.kattis.com/problems/jollyjumpers) (17 LOC):
-  Given a sequence of integers, do the differences between consecutive integers
-  cover all numbers from 1 to n?
+1. [Jolly Jumpers](https://open.kattis.com/problems/jollyjumpers) (17 LOC):
+Given a sequence of integers, do the differences between consecutive integers
+cover all numbers from 1 to n?
 
 ## Bags
 
@@ -64,12 +64,12 @@ A bag (or multiset) is an unordered collection with duplicates.
 Bags are useful when you need to count the frequency of each item.
 Python's class `collections.Counter` provides a bag data structure.
 
-- [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) (7 LOC):
+1. [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) (7 LOC):
   Compute the percentage of each tree species in a forest. Requires sorting.
 
-- [Recount](https://open.kattis.com/problems/recount) (6 LOC):
+1. [Recount](https://open.kattis.com/problems/recount) (6 LOC):
   Check if one candidate has more votes than all the other ones.
 
-- [Zipf's Law](https://open.kattis.com/problems/zipfslaw) (28 LOC):
+1. [Zipf's Law](https://open.kattis.com/problems/zipfslaw) (28 LOC):
   Find in a text all words that occur exactly a given number of times.
   Requires string processing.
