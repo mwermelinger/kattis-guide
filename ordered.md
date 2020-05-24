@@ -52,3 +52,22 @@ In Python, a list behaves as a stack if the only operations used are
 
 1. [Game of Throwns](https://open.kattis.com/problems/throwns) (18 LOC):
   A variation of the classic use of stacks to undo previous commands.
+
+## Priority queues
+
+A priority queue maintains items ordered by priority, which is typically given
+by an integer. In a min-priority queue the lowest priority item is at the front;
+in a max-priority queue it's at the back of the queue.
+
+Python's module `heapq` implements a priority queue with a binary heap.
+
+1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC)
+From the observed behaviour of a black-box data structure, infer if
+it's a stack, queue, priority queue or neither of them.
+
+1. [Continuous Median](https://open.kattis.com/problems/continuousmedian)
+(22 LOC): Re-compute the median every time an integer is added.
+Output the sum of all medians.
+
+1. [Stock Prices](https://open.kattis.com/problems/stockprices) (30 LOC):
+Simulate stock market deals to determine the current stock price.

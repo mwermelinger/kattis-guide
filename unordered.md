@@ -64,7 +64,7 @@ A bag (or multiset) is an unordered collection with duplicates.
 Bags are useful when you need to count the frequency of each item.
 Python's class `collections.Counter` provides a bag data structure.
 
-1. [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) (7 LOC):
+1. [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) (6 LOC):
   Compute the percentage of each tree species in a forest. Requires sorting.
 
 1. [Recount](https://open.kattis.com/problems/recount) (6 LOC):
