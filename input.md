@@ -147,7 +147,9 @@ One test case per line. Write the case number to the output.
 
 ## Fast I/O
 
-Some problems have long inputs or long outputs. You may get a 'Time Limit Exceeded' error. In those cases, use `stdin.readline()` instead of `input()`
+Some problems have long inputs or long outputs.
+You may get a 'Time Limit Exceeded' error. In those cases,
+use `stdin.readline()` instead of `input()`
 and `stdout.write()` instead of `print()`.
 
 The `readline()` function returns the empty string on end of input.

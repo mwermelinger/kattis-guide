@@ -8,9 +8,9 @@ and they are good practice to pay attention to details,
 separate the wheat from the chaff in a problem description,
 and think of edge cases where the algorithm may fail.
 
-Users can register on Kattis with their Azure, Facebook, Google or LinkedIn
-accounts, if they wish.
-Users can submit their solutions in about 20 different programming languages.
+Users can register on Kattis with an e-mail or their
+Azure, Facebook, Github, Google or LinkedIn accounts.
+Users can submit solutions in about 20 different programming languages.
 Users solve problems at their leisure but may also participate in time-limited
 contests, each with a selection of Kattis problems.
 
@@ -52,4 +52,5 @@ it's about getting the algorithms and data structures right.
 - [Ordered collections](ordered.md): sorting, lists, stacks, queues, deques
 - [Unordered collections](unordered.md): dictionaries, sets, bags
 - [Exhaustive search](exhaustive.md): linear search
-- [Tree](tree.md): binary and n-ary trees, tree traversals
+- [Tree](tree.md): n-ary trees, tree traversals
+- [Graph](graph.md): undirected graphs, graph traversals
