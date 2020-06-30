@@ -32,8 +32,12 @@ Here I classify some problems according to the algorithmic approach or
 data structure I used to solve the problem.
 I hope this helps you select problems that are appropriate to your knowledge
 or your students'.
+
 I aim to list around 5 problems for each algorithm or data structure,
 by order of difficulty, according to my judgement. Your mileage may vary.
+Most problems can be listed under two or more categories, depending on the
+algorithmic technique(s) and data structure(s) used,
+but that would give too much away about how to solve them.
 
 For each problem I provide a direct link to its Kattis page,
 where you can find the number of points and submit your solution.

@@ -48,8 +48,8 @@ find an available room.
 1. [Free Food](https://open.kattis.com/problems/freefood) (6 LOC):
 Given several ranges of days, how many days are there in total?
 
-1. [Saving Princess Peach](https://open.kattis.com/problems/princesspeach)
-(7 LOC): Which obstacles has Super Mario missed? Requires sorting.
+1. [Quick Brown Fox](https://open.kattis.com/problems/quickbrownfox) (8 LOC):
+   Find all English letters that don't occur in the given text.
 
 1. [CD](https://open.kattis.com/problems/cd) (7 LOC):
 See the [Input and Output](input.md) section for details.
@@ -69,6 +69,11 @@ Python's class `collections.Counter` provides a bag data structure.
 
 1. [Recount](https://open.kattis.com/problems/recount) (6 LOC):
   Check if one candidate has more votes than all the other ones.
+
+1. [Peragrams](https://open.kattis.com/problems/peragrams) (10 LOC):
+  What is the least number of characters we must remove from a given string to
+  obtain an anagram (i.e. a rearrangement) of a palindrome (a string that is
+      the same forwards and backwards)? No string processing required.
 
 1. [Zipf's Law](https://open.kattis.com/problems/zipfslaw) (28 LOC):
   Find in a text all words that occur exactly a given number of times.
