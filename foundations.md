@@ -23,9 +23,17 @@ See the [Input and Output](input.md) section for details.
 A little arithmetic tongue-in-cheek problem about the academic obsession with
 bibliometrics. The problem description explains the necessary concepts.
 
+1. [Planina](https://open.kattis.com/problems/planina) (1 LOC):
+   Compute the number of points on a grid after _n_ iterations of a
+   given procedure to create points. Once the formula has been derived,
+   the code is trivial, using the power operator `**`.
+
 ## Selection
 
 These problems can be solved with if-statements alone. No loops required.
+
+1. [Quadrant Selection](https://open.kattis.com/problems/quadrant) (6 LOC):
+  Given the x and y coordinates of a point, print in which quadrant it is.
 
 1. [Moscow Dream](https://open.kattis.com/problems/moscowdream) (5 LOC):
   Check that four integers satisfy some conditions.
@@ -75,11 +83,16 @@ followed by the consumption in each month, one per line.
 
 These problems involve floating-point numbers, some of
 which can be tricky due to precision and rounding issues.
+You may need the `math` library for some of the problems.
 <!--
 Function `float` converts a string to a floating-point number.
 Function [`round`](https://docs.python.org/3/library/functions.html#round)
 changes the precision of a floating-point number or converts it to an integer.
 -->
+
+1. [A Real Challenge](https://open.kattis.com/problems/areal) (3 LOC):
+   Given the area of a square pasture, how long is the fence?
+   No if-statements or loops.
 
 1. [Pizza Crust](https://open.kattis.com/problems/pizza2) (2 LOC):
   What percentage of a pizza has cheese, knowing the width of the crust?
@@ -95,17 +108,24 @@ changes the precision of a floating-point number or converts it to an integer.
 
 1. [Herman](https://open.kattis.com/problems/herman) (4 LOC):
   What is the area of a circle in normal and in Manhattan/taxi geometry?
-  Use `math.pi` for the former. Draw on grid paper to see the latter.
-  No if-statements or loops.
+  Draw on grid paper to see the latter. No if-statements or loops.
 
 ## Strings
 
 Almost every problem requires printing a string as part of the output.
 These problems however require some string processing: comparing strings,
-substring matching with the `in` operator, formatting the output, etc.
+matching substrings with the `in` operator,
+calculating the length with the `len` function, formatting the output, etc.
 
 1. [IsItHalloween.com](https://open.kattis.com/problems/isithalloween) (2 LOC):
   Check if input is one of two dates. No loops required.
+
+1. [Avion](https://open.kattis.com/problems/avion) (7 LOC):
+  Report which given strings have a particular substring.
+
+1. [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum)
+   (4 LOC): Given a string, count how many letters must be replaced
+   to obtain another string.
 
 1. [Help a PhD candidate out!](https://open.kattis.com/problems/helpaphd)
 (3 LOC): See the [Input and Output](input.md) section for details.
