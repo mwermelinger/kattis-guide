@@ -13,8 +13,15 @@ These problems instead are about processing a list.
    See the [Input and Output](input.md) section for details.
 
 1. [Backspace](https://open.kattis.com/problems/backspace) (7 LOC):
-  Process backspaces in a log of keystrokes to obtain the final text.
-  Needs some string processing.
+   Process backspaces in a log of keystrokes to obtain the final text.
+   Needs some string processing.
+
+1. [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1)
+   (35 LOC): Seven small problems on integer lists, most of them trivial.
+
+1. [Integer Lists](https://open.kattis.com/problems/integerlists) (24 LOC):
+   Reverse a list and/or remove its first item several times.
+   Print the resulting list. Needs string processing.
 
 ## Sorting
 
@@ -29,6 +36,9 @@ the items in ascending or descending order.
 1. [Cetiri](https://open.kattis.com/problems/cetiri) (7 LOC):
    Given 3 integers, find a fourth one to make an arithmetic progression.
    No loops needed.
+
+1. [Bus Numbers](https://open.kattis.com/problems/busnumbers) (18 LOC):
+   Print a list of numbers (e.g. 143 142 141) in a compact way (e.g. 141-143).
 
 1. [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2)
    (43 LOC): Five classic applications of sorting:
@@ -57,6 +67,8 @@ In Python, a list behaves as a stack if the only operations used are
 1. [Game of Throwns](https://open.kattis.com/problems/throwns) (18 LOC):
    A variation of the classic use of stacks to undo previous commands.
 
+1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC): see below.
+
 ## Priority queues
 
 A priority queue maintains items ordered by priority, which is typically given
@@ -66,9 +78,9 @@ in a max-priority queue the highest value represents the highest priority.
 
 Python's module `heapq` implements a min-priority queue with a binary heap.
 
-1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC)
-From the observed behaviour of a black-box data structure, infer if
-it's a stack, queue, priority queue or neither of them.
+1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC):
+   From the observed behaviour of a black-box data structure, infer if
+   it's a stack, queue, priority queue or neither of them.
 
 1. [Continuous Median](https://open.kattis.com/problems/continuousmedian)
 (22 LOC): Re-compute the median every time an integer is added.
