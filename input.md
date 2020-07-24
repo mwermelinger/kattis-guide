@@ -106,8 +106,8 @@ In these problems there's no special information at the start or end.
 If each test case consists of a single line, the simplest approach is to loop
 over each line of the standard input, which is `sys.stdin`.
 
-If the input is one integer per line and all integers are to be added,
-the solution becomes:
+Returning to the example, if the input is one integer per line
+and all integers are to be added, the solution becomes:
 ```py
 from sys import stdin
 
@@ -142,7 +142,7 @@ string concatenation. However, often the easiest way to cope with much of output
 formatting is to use Python's f-strings.
 
 - [Statistics](https://open.kattis.com/problems/statistics) (8 LOC):
-Compute the highest, lowest and range of the given values.
+Compute the maximum, minimum and range of the given values.
 One test case per line. Write the case number to the output.
 
 ## Fast I/O

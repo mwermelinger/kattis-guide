@@ -15,7 +15,7 @@ keep information about the items already processed.
 
 1. [Hot Hike](https://open.kattis.com/problems/hothike) (10 LOC):
    Given the air temperatures over several days,
-   find the lowest n that minimises the temperature on days n and n+2?
+   find the lowest n that minimises the temperature on days n and n+2.
 
 1. [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) (15 LOC):
    Given a list of restaurants and their menus,
@@ -38,5 +38,5 @@ In these problems, each candidate is a combination of digits, letters or
 other items. Generating all combinations may require nested loops.
 
 1. [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) (14 LOC):
-   Count how many 6-digit PINs, within a given range, have distinct digits and
-   are divisible by each of their digits.
+   Count how many 6-digit PINs, within a given range,
+   have distinct digits and are divisible by each of their digits.

@@ -83,8 +83,8 @@ Python's module `heapq` implements a min-priority queue with a binary heap.
    it's a stack, queue, priority queue or neither of them.
 
 1. [Continuous Median](https://open.kattis.com/problems/continuousmedian)
-(22 LOC): Re-compute the median every time an integer is added.
-Output the sum of all medians.
+   (22 LOC): Re-compute the median every time an integer is added.
+   Output the sum of all medians.
 
 1. [Stock Prices](https://open.kattis.com/problems/stockprices) (30 LOC):
-Simulate stock market deals to determine the current stock price.
+   Simulate stock market deals to determine the current stock price.

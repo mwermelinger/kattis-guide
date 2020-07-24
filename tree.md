@@ -8,4 +8,4 @@ A leaf is a childless node.
  -->
 
 - [Kitten on a Tree](https://open.kattis.com/problems/kitten) (11 LOC):
-Print the path from a given node to the root.
+  Print the path from a given node to the root.
