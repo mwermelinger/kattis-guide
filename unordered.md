@@ -30,6 +30,10 @@ The problem description explains all you need to know. Needs string processing.
 (24 LOC):  An interpreter for simple integer comparisons.
 Requires some string processing.
 
+1. [False Sense of Security](https://open.kattis.com/problems/falsesecurity)
+(26 LOC):  Decrypt a given text, using Morse code.
+The problem description explains all you need to know.
+
 ## Sets
 
 A set is an unordered collection of unique items, i.e. without duplicates.
@@ -74,6 +78,11 @@ Python's class `collections.Counter` provides a bag data structure.
   What is the least number of characters we must remove from a given string to
   obtain an anagram (i.e. a rearrangement) of a palindrome (a string that is
       the same forwards and backwards)? No string processing required.
+
+1. [Mastering Mastermind](https://open.kattis.com/problems/mastermind) (14 LOC):
+   Given the secret code and a guess in a game of [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)),
+   report how many letters of the guess are in the correct place
+   and how many are in the wrong place.
 
 1. [Zipf's Law](https://open.kattis.com/problems/zipfslaw) (28 LOC):
   Find in a text all words that occur exactly a given number of times.
