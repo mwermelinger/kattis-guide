@@ -82,9 +82,20 @@ Python's module `heapq` implements a min-priority queue with a binary heap.
    From the observed behaviour of a black-box data structure, infer if
    it's a stack, queue, priority queue or neither of them.
 
+1. [Knigs of the Forest](https://open.kattis.com/problems/knigsoftheforest)
+   (21 LOC): Each year, a tournament is won by the strongest candidate.
+   The winner is replaced by a newcomer the next year. Knowing the strength of
+   a candidate and the year he joins the tournament, in which year will he win?
+
 1. [Continuous Median](https://open.kattis.com/problems/continuousmedian)
    (22 LOC): Re-compute the median every time an integer is added.
    Output the sum of all medians.
+
+1. [Jane Eyre](https://open.kattis.com/problems/janeeyre) (22 LOC):
+   Anna reads books in alphabetical order of their title. Given her list of
+   unread books (including _Jane Eyre_) and the time it takes to read each,
+   and given a list of when further books will be added to the unread pile,
+   when will Anna finish reading _Jane Eyre_?
 
 1. [Stock Prices](https://open.kattis.com/problems/stockprices) (30 LOC):
    Simulate stock market deals to determine the current stock price.
