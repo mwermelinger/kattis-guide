@@ -40,3 +40,11 @@ other items. Generating all combinations may require nested loops.
 1. [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) (14 LOC):
    Count how many 6-digit PINs, within a given range,
    have distinct digits and are divisible by each of their digits.
+
+## Backtracking
+
+This technique incrementally builds a candidate. As soon as the partial candidate cannot lead to a solution, the algorithm tries a different one.
+Backtracking is usually implemented in a recursive way.
+
+1. [Boggle](https://open.kattis.com/problems/boggle) (48 LOC):
+   Given a list of words, find all that occur in a 4x4 grid of letters.

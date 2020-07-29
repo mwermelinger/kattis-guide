@@ -55,6 +55,6 @@ it's about getting the algorithms and data structures right.
 - [Foundations](foundations.md): sequence, selection, iteration, integers, floats, strings
 - [Ordered collections](ordered.md): sorting, lists, stacks, queues, deques
 - [Unordered collections](unordered.md): dictionaries, sets, bags
-- [Exhaustive search](exhaustive.md): linear search
+- [Exhaustive search](exhaustive.md): linear search, backtracking
 - [Tree](tree.md): n-ary trees, tree traversals
 - [Graph](graph.md): undirected graphs, graph traversals
