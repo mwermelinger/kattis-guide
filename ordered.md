@@ -75,8 +75,9 @@ A priority queue maintains items ordered by priority, which is typically given
 by an integer, but could be any ordered values.
 In a min-priority queue the lowest value represents the highest priority;
 in a max-priority queue the highest value represents the highest priority.
-
 Python's module `heapq` implements a min-priority queue with a binary heap.
+
+Some of these problems may be solved with two priority queues.
 
 1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC):
    From the observed behaviour of a black-box data structure, infer if

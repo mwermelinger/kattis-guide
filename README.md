@@ -53,8 +53,9 @@ it's about getting the algorithms and data structures right.
 
 - [Input and Output](input.md): an overview of the necessary I/O functions
 - [Foundations](foundations.md): sequence, selection, iteration, integers, floats, strings
-- [Ordered collections](ordered.md): sorting, lists, stacks, queues, deques
+- [Ordered collections](ordered.md): sorting, lists, stacks, priority queues
+  <!-- deques -->
 - [Unordered collections](unordered.md): dictionaries, sets, bags
 - [Exhaustive search](exhaustive.md): linear search, backtracking
-- [Tree](tree.md): n-ary trees, tree traversals
+- [Tree](tree.md): rooted n-ary trees, binary heaps
 - [Graph](graph.md): undirected graphs, graph traversals
