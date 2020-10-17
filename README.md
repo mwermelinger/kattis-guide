@@ -15,11 +15,11 @@ Users solve problems at their leisure but may also participate in time-limited
 contests, each with a selection of Kattis problems.
 
 Kattis runs each submission against hidden tests.
-If all tests pass, the user gets the points associated to that problem.
+If all tests pass, the user gets the points associated with that problem.
 Each user's points also contribute to the points of their country and school.
 Users, schools and countries are ranked by their points.
 Many users don't solve any problem after registering on Kattis.
-If you solve just a couple of easy problems
+If you solve just a few easy problems,
 you'll climb thousands of places in the rankings.
 The [help page](https://open.kattis.com/help) has more details
 on how to submit, the possible outcomes, and the scoring system.
@@ -33,18 +33,18 @@ data structure I used to solve the problem.
 I hope this helps you select problems that are appropriate to your knowledge
 or your students'.
 
-I aim to list around 5 problems for each algorithm or data structure,
+I aim to list around five problems for each algorithm or data structure,
 by order of difficulty, according to my judgement. Your mileage may vary.
 Most problems can be listed under two or more categories, depending on the
 algorithmic technique(s) and data structure(s) used,
 but that would give too much away about how to solve them.
 
-For each problem I provide a direct link to its Kattis page,
+For each problem, I provide a direct link to its Kattis page,
 where you can find the number of points and submit your solution.
 I also provide the number of lines of code (LOC) of my Python 3 solution,
 but longer programs are not necessarily more difficult.
-I don't count blank and comment lines.
-I don't use semicolons to join two short lines into one.
+I don't count blank and comment lines, nor
+do I use semicolons to join two short lines into one.
 I often use list comprehensions and conditional expressions.
 The LOC are just a rough indication of how much coding is involved.
 Solving Kattis problems is _not_ about playing

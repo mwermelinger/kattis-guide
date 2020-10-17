@@ -43,7 +43,7 @@ Sets are useful if we need:
 - the items that two or more sets have in common;
 - the items that are in one set but not the other.
 
-Python has a builtin set type.
+Python has a built-in set type.
 If the set has only integers, a list of Booleans may suffice.
 
 1. [Booking a Room](https://open.kattis.com/problems/bookingaroom) (5 LOC):

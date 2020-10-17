@@ -20,7 +20,7 @@ the distance, time or cost to move along the edge from one node to the other.
 
 1. [Railroad](https://open.kattis.com/problems/railroad2) (2 LOC):
    Determine if a 'closed' railway, in which a train goes continuously around,
-   can be built. A different setting of the Königsberg bridges problem.
+   can be built. It's a different setting of the Königsberg bridges problem.
 
 1. [Weak Vertices](https://open.kattis.com/problems/weakvertices) (16 LOC):
    Three nodes A, B and C form a triangle if there are edges A-B, B-C and C-A.
@@ -30,7 +30,7 @@ the distance, time or cost to move along the edge from one node to the other.
 
 A BFS traversal visits all of a node's neighbours before visiting their
 neighbours. It first visits nodes that are one hop away from the start node,
-then those 2 hops away, etc.
+then those two hops away, etc.
 BFS can thus find the shortest distance between a pair of nodes.
 
 1. [Grid](https://open.kattis.com/problems/grid) (32 LOC):
@@ -39,7 +39,7 @@ BFS can thus find the shortest distance between a pair of nodes.
 
 ## Depth-First Search
 
-A DFS traversal follows one path from the start node, until the current node
+A DFS traversal follows one path from the start node until the current node
 leads to no new nodes. At that point, it backtracks and tries a different path.
 A recursive implementation of DFS may lead to a run time error for large graphs.
 

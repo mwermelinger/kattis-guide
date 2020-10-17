@@ -1,8 +1,8 @@
 # Input / Output
 
-For each Kattis problem, the data has to be read from the standard input, and
-the results have to be written to the standard output. There are different ways
-to do so in Python depending on the problem. Most Kattis problems fall into one
+Each Kattis problem requires data to be read from the standard input, and
+the results to be written to the standard output. There are different ways
+to do so in Python, depending on the problem. Most Kattis problems fall into one
 of the following categories. I give one example per category.
 
 ## No input
@@ -21,7 +21,7 @@ attention to details and checking before submitting.
 Problems in this category have a fixed number of lines, given in the problem
 description, and each line has a single datum, e.g. one number.
 
-To read a single line from the standard input, use `input()`. This returns a
+To read a single line from the standard input, use `input()`, which returns a
 string. If a string represents a number, use function `int()` or `float()` to
 convert it to an integer or floating-point number.
 
@@ -57,15 +57,15 @@ print(sum(int(number) for number in input().split()))
 ```
 
 - [Solving for Carrots](https://open.kattis.com/problems/carrots) (1 LOC):
-A silly description of a trivial problem.
-A good introduction to ignoring irrelevant details.
+A silly description of a trivial problem that makes
+an excellent introduction to ignoring irrelevant details.
 
 ## _n_ lines
 
 These problems have a variable number _n_ of lines, but _n_ is given at the
 start of the input, and so the lines can be read with a for-loop.
 
-Consider again the sum example, but this time, each integer is on its own line, and the first line is the number of lines that follow.
+Consider the sum example again, but this time, each integer is on its line, and the first line is the number of lines that follow.
 The solution becomes:
 ```py
 total = 0
@@ -76,14 +76,14 @@ print(total)
 
 - [Help a PhD candidate out!](https://open.kattis.com/problems/helpaphd)
 (3 LOC): A silly problem, but good to practice the input techniques so far.
-My 3-line solution uses a special Python function.
+My 3-line solution uses a particular Python function.
 The problem can be solved without it.
 
 ## End marker
 
 These problems have a variable number of lines, and their number is unknown at
-the start. Instead, there is a special marker signalling the end of input.
-This requires a repeat-until loop, using a `while` statement.
+the start. Instead, there is a marker signalling the end of input.
+Processing such inputs requires a repeat-until loop, using a `while` statement.
 
 Imagine the sum example has one integer per line and the last integer is zero.
 The solution becomes:
@@ -97,13 +97,13 @@ print(total)
 ```
 
 - [Left Beehind](https://open.kattis.com/problems/leftbeehind) (11 LOC):
-Make a decision based on 2 integers.
+Make a decision based on two integers.
 The input has two integers per line, terminating with two zeros.
 
 ## End of file
 
-In these problems there's no special information at the start or end.
-If each test case consists of a single line, the simplest approach is to loop
+In these problems, there's no extra information at the start or end of the input.
+If each test case consists of a single line, the most straightforward approach is to loop
 over each line of the standard input, which is `sys.stdin`.
 
 Returning to the example, if the input is one integer per line
@@ -134,10 +134,10 @@ method, which removes all whitespace from the right end of a string.
  -->
 
 ## Formatted output
-Some problems require the output to be formatted in a special way,
+Some problems require the output to be formatted in a particular way,
 e.g. without a space between values, or with a certain number of digits after the decimal point.
 
-If output items are not separated by spaces, you can use `print(..., end='')` or
+If spaces do not separate output items, you can use `print(..., end='')` or
 string concatenation. However, often the easiest way to cope with much of output
 formatting is to use Python's f-strings.
 
@@ -152,10 +152,10 @@ You may get a 'Time Limit Exceeded' error. In those cases,
 use `stdin.readline()` instead of `input()`
 and `stdout.write()` instead of `print()`.
 
-The `readline()` function returns the empty string on end of input.
+The `readline()` function returns the empty string on the end of input.
 
 The `write()` function takes a string to be written as-is.
-You must write all space separators and newlines yourself,
+You must write all spaces and newlines yourself,
 and convert data to strings using the function `str()`.
 
 Here's the last example again:

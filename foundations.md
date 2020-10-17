@@ -3,7 +3,7 @@
 These problems don't use any complicated algorithms or data structures.
 They help get used to the submission system and the various forms of input.
 As mentioned in the introduction, within each category,
-problems are listed from easiest to not so easy, in my opinion of course.
+problems are listed from easiest to not so easy, in my opinion.
 
 ## Sequence
 
@@ -56,7 +56,7 @@ the input contains multiple lines, or the problem itself requires a loop.
 
 1. [R2](https://open.kattis.com/problems/r2) (3 LOC):
    Given the average of two integers and one of them, find the other one.
-   The input has 2 integers per line, until the end of file.
+   The input has two integers per line, until the end of the file.
 
 1. [A Different Problem](https://open.kattis.com/problems/different) (4 LOC):
    See the [Input and Output](input.md) section for details.
@@ -66,14 +66,14 @@ the input contains multiple lines, or the problem itself requires a loop.
    See the [Input and Output](input.md) section for details.
 
 1. [Thanos](https://open.kattis.com/problems/thanos) (7 LOC):
-   Simulate the growth of a population growth and find out in which year
+   Simulate the growth of a population and find out in which year
    the resources aren't enough.
    <!-- The first line is the number of test cases, one per line. -->
    A nice simple problem that uses a for-loop to process all test cases,
    and a while-loop to solve each test case.
 
 1. [Tarifa](https://open.kattis.com/problems/tarifa) (6 LOC):
-   Given the allowance on a data plan, and given the past monthly consumption,
+   Given the allowance on a data plan and the past monthly consumption,
    how much data is available this month? Unused data carries forward.
    <!-- The input is a single test case.
    The second line is the number of past months,
@@ -100,7 +100,8 @@ changes the precision of a floating-point number or converts it to an integer.
 
 1. [Euler's Number](https://open.kattis.com/problems/eulersnumber) (6 LOC):
    Approximate Euler's number through a series of factorials.
-   Doesn't require mathematical knowledge. Just implement the given formula.
+   This problem doesn't require mathematical knowledge:
+   just translate the given formula to code.
 
 1. [Roaming Romans](https://open.kattis.com/problems/romans) (5 LOC):
    Convert English miles to Roman paces. No loops. Requires some care
@@ -112,8 +113,8 @@ changes the precision of a floating-point number or converts it to an integer.
 
 ## Strings
 
-Almost every problem requires printing a string as part of the output.
-These problems however require some string processing: comparing strings,
+Almost every problem requires printing a string as part of the output,
+but these problems require some string processing: comparing strings,
 matching substrings with the `in` operator,
 calculating the length with the `len` function, formatting the output, etc.
 
@@ -125,7 +126,7 @@ calculating the length with the `len` function, formatting the output, etc.
 
 1. [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum)
    (4 LOC): Given a string, count how many letters must be replaced
-   in order to obtain another string.
+   to obtain another string.
 
 1. [Help a PhD candidate out!](https://open.kattis.com/problems/helpaphd)
    (3 LOC): See the [Input and Output](input.md) section for details.

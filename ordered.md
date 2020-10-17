@@ -20,7 +20,7 @@ These problems instead are about processing a list.
    (35 LOC): Seven small problems on integer lists, most of them trivial.
 
 1. [Integer Lists](https://open.kattis.com/problems/integerlists) (24 LOC):
-   Reverse a list and/or remove its first item several times.
+   Reverse a list or remove its first item several times.
    Print the resulting list. Needs string processing.
 
 ## Sorting
@@ -34,7 +34,7 @@ the items in ascending or descending order.
    Detect if a sequence is in ascending order, descending order or neither.
 
 1. [Cetiri](https://open.kattis.com/problems/cetiri) (7 LOC):
-   Given 3 integers, find a fourth one to make an arithmetic progression.
+   Given three integers, find a fourth one to make an arithmetic progression.
    No loops needed.
 
 1. [Bus Numbers](https://open.kattis.com/problems/busnumbers) (18 LOC):
@@ -73,8 +73,8 @@ In Python, a list behaves as a stack if the only operations used are
 
 A priority queue maintains items ordered by priority, which is typically given
 by an integer, but could be any ordered values.
-In a min-priority queue the lowest value represents the highest priority;
-in a max-priority queue the highest value represents the highest priority.
+In a min-priority queue, the lowest value represents the highest priority;
+in a max-priority queue, the highest value represents the highest priority.
 Python's module `heapq` implements a min-priority queue with a binary heap.
 
 Some of these problems may be solved with two priority queues.

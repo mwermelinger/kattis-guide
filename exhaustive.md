@@ -29,7 +29,7 @@ keep information about the items already processed.
 
 1. [Amalgamated Artichokes](https://open.kattis.com/problems/artichoke)
    (11 LOC): Given the fluctuation of stock prices over time,
-   find the start and end of the biggest price drop.
+   find the start and end of the largest price drop.
    Use the `math` library functions `sin` and `cos` to compute the prices.
 
 ## Combinations
@@ -44,7 +44,7 @@ other items. Generating all combinations may require nested loops.
 ## Backtracking
 
 This technique incrementally builds a candidate. As soon as the partial candidate cannot lead to a solution, the algorithm tries a different one.
-Backtracking is usually implemented in a recursive way.
+Backtracking is usually implemented recursively.
 
 1. [Boggle](https://open.kattis.com/problems/boggle) (48 LOC):
    Given a list of words, find all that occur in a 4x4 grid of letters.
