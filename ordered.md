@@ -73,13 +73,22 @@ In Python, a list behaves as a stack if the only operations used are
 
 A queue is a first-in first-out (first-come first-served) sequence:
 only the item first added can be accessed or removed.
+A double-ended queue (deque for short, pronounced 'deck'),
+allows to access, insert and remove items from both ends of the sequence.
+
+Python's `deque` data type in module `collections` implements deques,
+and therefore queues.
 
 1. [Eeny meeny](https://open.kattis.com/problems/eenymeeny) (16 LOC):
-   Given players in circle, use a counting rhyme to place them in two teams.
+   Given _n_ players in a circle, put them in two teams with a counting rhyme.
    A variant of the Josephus problem.
 
 1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC): see below.
 
+1. [Ferry Loading III](https://open.kattis.com/problems/ferryloading3)
+   (29 LOC): Simulate the ferrying of cars across a river. Keep in mind that
+   the unloading times are printed in the same order the cars arrive
+   and that the ferry waits until a car arrives at either margin.
 
 ## Priority queues
 
