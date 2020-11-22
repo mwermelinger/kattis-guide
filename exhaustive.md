@@ -10,7 +10,7 @@ This approach is also called brute-force search, or generate and test.
 In a linear search, the candidates are the items in a given collection:
 list, string, set, etc.
 Candidates are 'generated' by iterating through the collection.
-The search may require an additional data structure to
+The search may require an additional collection to
 keep information about the items already processed.
 
 1. [Hot Hike](https://open.kattis.com/problems/hothike) (10 LOC):

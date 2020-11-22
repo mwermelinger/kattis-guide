@@ -1,6 +1,6 @@
 # Foundations
 
-These problems don't use any complicated algorithms or data structures.
+These problems don't require any data structure or complicated algorithm.
 They help get used to the submission system and the various forms of input.
 As mentioned in the introduction, within each category,
 problems are listed from easiest to not so easy, in my opinion.

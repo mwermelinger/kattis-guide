@@ -5,9 +5,10 @@ in which the order of items doesn't matter.
 
 ## Dictionaries
 
-A dictionary (or hash table) is an unordered collection of key-value pairs
-with unique keys. Dictionaries allow quick access to a value by key.
+A dictionary is an unordered collection of key-value pairs with unique keys.
 Dictionaries are useful to map one collection of items to another.
+Dictionaries allow quick access to a value by key
+when implemented with hash tables.
 
 Python has a built-in dictionary type.
 If the keys are integers from a known range, a list may suffice,
@@ -67,7 +68,8 @@ If the set has only integers, a list of Booleans may suffice.
 
 A bag (or multiset) is an unordered collection with duplicates.
 Bags are useful when you need to count the frequency of each item.
-Python's class `collections.Counter` provides a bag data structure.
+Python's class `collections.Counter` provides a bag data type,
+implemented with a hash table.
 
 1. [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) (6 LOC):
    Compute the percentage of each tree species in a forest. Requires sorting.

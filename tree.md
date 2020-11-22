@@ -17,9 +17,9 @@ A leaf is a childless node.
 A binary heap is a complete binary tree where each node's value is smaller
 (or larger, in a max-heap) than its children's values.
 Binary heaps are used to implement priority queues because
-they can be efficiently stored and manipulated as a list.
+they can be efficiently stored and manipulated as an array (Python list).
 
-These problems require knowing how binary heap nodes are indexed in a list,
+These problems require knowing how binary heap nodes are indexed,
 in particular how to go from a node to its left or right child, and vice-versa.
 
 1. [A Rational Sequence (Take 3)](https://open.kattis.com/problems/rationalsequence3) (9 LOC):

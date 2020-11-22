@@ -47,7 +47,7 @@ the items in ascending or descending order.
 
 ## Stacks
 
-A stack is a last-in-first-out sequence:
+A stack is a last-in first-out sequence:
 only the item last added can be accessed and removed.
 Stacks are useful to process nested items.
 
@@ -69,6 +69,18 @@ In Python, a list behaves as a stack if the only operations used are
 
 1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC): see below.
 
+## Queues
+
+A queue is a first-in first-out (first-come first-served) sequence:
+only the item first added can be accessed or removed.
+
+1. [Eeny meeny](https://open.kattis.com/problems/eenymeeny) (16 LOC):
+   Given players in circle, use a counting rhyme to place them in two teams.
+   A variant of the Josephus problem.
+
+1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC): see below.
+
+
 ## Priority queues
 
 A priority queue maintains items ordered by priority, which is typically given
@@ -80,8 +92,8 @@ Python's module `heapq` implements a min-priority queue with a binary heap.
 Some of these problems may be solved with two priority queues.
 
 1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC):
-   From the observed behaviour of a black-box data structure, infer if
-   it's a stack, queue, priority queue or neither of them.
+   From the observed behaviour of adding and removing numbers to a collection,
+   infer if it's a stack, queue, priority queue or neither of them.
 
 1. [Knigs of the Forest](https://open.kattis.com/problems/knigsoftheforest)
    (21 LOC): Each year, a tournament is won by the strongest candidate.
