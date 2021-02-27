@@ -77,7 +77,8 @@ A double-ended queue (deque for short, pronounced 'deck'),
 allows to access, insert and remove items from both ends of the sequence.
 
 Python's `deque` data type in module `collections` implements deques,
-and therefore queues.
+and therefore queues. It also allows accessing any item,
+but items towards the middle of the deque take linear time to access.
 
 1. [Eeny meeny](https://open.kattis.com/problems/eenymeeny) (16 LOC):
    Given _n_ players in a circle, put them in two teams with a counting rhyme.
@@ -87,9 +88,18 @@ and therefore queues.
 
 1. [Ferry Loading III](https://open.kattis.com/problems/ferryloading3)
    (29 LOC): Simulate the ferrying of cars across a river. Keep in mind that
-   the unloading times are printed in the same order the cars arrive
+   the unloading times are printed in the order the cars arrive
    (not in the order they are unloaded!)
    and that the ferry waits until a car arrives at either margin.
+
+1. [Foosball Dynasty](https://open.kattis.com/problems/foosball) (29 LOC):
+   Simulate a sequence of table football matches, with 2 players on each side.
+   Players take turns playing, so that more than 4 players can play.
+   Print the 2-player teams with the most consecutive victories.
+
+1. [Teque](https://open.kattis.com/problems/teque) (25 LOC): Implement a
+   'triple-ended' queue that allows items to be efficiently added at the start,
+   the end and in the middle. This problem requires fast I/O.
 
 ## Priority queues
 

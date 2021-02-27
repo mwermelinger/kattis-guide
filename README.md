@@ -28,8 +28,9 @@ Kattis has over 2500 problems from many
 [competitions and training sessions](https://open.kattis.com/problem-sources),
 so where to start and how to progress?
 Kattis suggests problems mostly by difficulty, i.e. number of points.
-Here I classify some problems according to the algorithmic approach or
-data structure I used to solve the problem.
+Here I take some problems from
+Steven Halim's [Methods to Solve](https://cpbook.net/methodstosolve) website and classify them according to the algorithmic approach or data structure
+I used to solve the problem, which is not always the same as Steven's.
 I hope this helps you select problems that are appropriate to your knowledge
 or your students'.
 
@@ -51,10 +52,12 @@ Solving Kattis problems is _not_ about playing
 [code golf](https://en.wikipedia.org/wiki/Code_golf);
 it's about getting the algorithms and data structures right.
 
-- [Input and Output](input.md): an overview of the necessary I/O functions
-- [Foundations](foundations.md): sequence, selection, iteration, integers, floats, strings
-- [Ordered collections](ordered.md): sorting, lists, stacks, priority queues
-  <!-- deques -->
+- [Input and Output](input.md): read this first;
+  it's an overview of the necessary I/O functions
+- [Foundations](foundations.md): sequence, selection, iteration,
+  integers, floats, strings
+- [Ordered collections](ordered.md):
+  sorting, lists, stacks, (priority) queues, deques
 - [Unordered collections](unordered.md): dictionaries, sets, bags
 - [Exhaustive search](exhaustive.md): linear search, backtracking
 - [Tree](tree.md): rooted n-ary trees, binary heaps
