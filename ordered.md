@@ -28,7 +28,7 @@ These problems instead are about processing a list.
 Some problems become easier by sorting the items.
 Sometimes items must be sorted for output, to enable automated testing.
 These problems can be solved using function `sorted` or method `sort` to put
-the items in ascending or descending order.
+the items in ascending or descending order, with argument `reverse=True`.
 
 1. [Line Them Up](https://open.kattis.com/problems/lineup) (9 LOC):
    Detect if a sequence is in ascending order, descending order or neither.
@@ -80,22 +80,24 @@ Python's `deque` data type in module `collections` implements deques,
 and therefore queues. It also allows accessing any item,
 but items towards the middle of the deque take linear time to access.
 
+Some of these problems may require two queues.
+
 1. [Eeny meeny](https://open.kattis.com/problems/eenymeeny) (16 LOC):
    Given _n_ players in a circle, put them in two teams with a counting rhyme.
    A variant of the Josephus problem.
 
 1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC): see below.
 
+1. [Foosball Dynasty](https://open.kattis.com/problems/foosball) (29 LOC):
+   Simulate a sequence of table football matches, with 2 players on each side.
+   Players take turns playing, so that more than 4 players can play.
+   Print the 2-player teams with the most consecutive victories.
+
 1. [Ferry Loading III](https://open.kattis.com/problems/ferryloading3)
    (29 LOC): Simulate the ferrying of cars across a river. Keep in mind that
    the unloading times are printed in the order the cars arrive
    (not in the order they are unloaded!)
    and that the ferry waits until a car arrives at either margin.
-
-1. [Foosball Dynasty](https://open.kattis.com/problems/foosball) (29 LOC):
-   Simulate a sequence of table football matches, with 2 players on each side.
-   Players take turns playing, so that more than 4 players can play.
-   Print the 2-player teams with the most consecutive victories.
 
 1. [Teque](https://open.kattis.com/problems/teque) (25 LOC): Implement a
    'triple-ended' queue that allows items to be efficiently added at the start,
@@ -109,7 +111,7 @@ In a min-priority queue, the lowest value represents the highest priority;
 in a max-priority queue, the highest value represents the highest priority.
 Python's module `heapq` implements a min-priority queue with a binary heap.
 
-Some of these problems may be solved with two priority queues.
+Some of these problems may require two priority queues.
 
 1. [I Can Guess the Data Structure!](https://open.kattis.com/problems/guessthedatastructure) (30 LOC):
    From the observed behaviour of adding and removing numbers to a collection,

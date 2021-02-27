@@ -30,7 +30,7 @@ so where to start and how to progress?
 Kattis suggests problems mostly by difficulty, i.e. number of points.
 Here I take some problems from
 Steven Halim's [Methods to Solve](https://cpbook.net/methodstosolve) website and classify them according to the algorithmic approach or data structure
-I used to solve the problem, which is not always the same as Steven's.
+I used to solve the problem, which isn't always the one Steven suggests.
 I hope this helps you select problems that are appropriate to your knowledge
 or your students'.
 
