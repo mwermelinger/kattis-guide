@@ -60,5 +60,6 @@ it's about getting the algorithms and data structures right.
   sorting, lists, stacks, (priority) queues, deques
 - [Unordered collections](unordered.md): dictionaries, sets, bags
 - [Exhaustive search](exhaustive.md): linear search, backtracking
+- [Optimisation](optimisation.md): greedy algorithms
 - [Tree](tree.md): rooted n-ary trees, binary heaps
 - [Graph](graph.md): undirected graphs, graph traversals
