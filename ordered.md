@@ -3,7 +3,7 @@
 These problems can be solved using some form of sequence,
 i.e. a collection where the order of items matters.
 
-## Lists
+## Python lists
 
 Any problem that requires `input().split()` uses a list, but often
 it's just to access different parts of the input data.
@@ -102,6 +102,25 @@ Some of these problems may require two queues.
 1. [Teque](https://open.kattis.com/problems/teque) (25 LOC): Implement a
    'triple-ended' queue that allows items to be efficiently added at the start,
    the end and in the middle. This problem requires fast I/O.
+
+## Linked list
+
+Python's `list` type is implemented with an array,
+which requires shifting items when one is removed or inserted.
+
+A singly linked list implements a sequence as a chain of items,
+each one (except the last) pointing to the next item. This allows
+inserting and removing an item at any given position in constant time,
+as no items are shifted. In a doubly linked list,
+each item (except the first) also points to the previous one.
+This allows traversing the list from the end backwards.
+
+Python's `deque` type is implemented with a doubly-linked list
+but there's no generic linked list class. You will have to implement your own.
+
+1. [Sim](https://open.kattis.com/problems/sim) (50 LOC):
+   An extension of the 'Backspace' problem above: the keystrokes include
+   '[' and ']' to put the cursor at the start and the end of the line.
 
 ## Priority queues
 

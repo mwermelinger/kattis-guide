@@ -16,9 +16,9 @@ Greedy algorithms often involve sorting the alternatives from best to worst.
 Many optimisation problems can't be solved by greedy algorithms,
 because the best solution isn't necessarily made of locally best choices.
 For example, always going to the nearest place from the current one doesn't
-always lead to the shortest path from one place to another.
+always lead to the shortest path from a start place to a destination place.
 
 1. [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar)
    (6 LOC): Given two sequences of integers x and y of the same length n,
-   rearrange each sequence so that the sum x[1]·y[1] + ... + x[n]·y[n]
+   rearrange each sequence so that the sum x[1] · y[1] + ... + x[n] · y[n]
    is the smallest possible.
