@@ -52,7 +52,9 @@ Solving Kattis problems is _not_ about playing
 [code golf](https://en.wikipedia.org/wiki/Code_golf);
 it's about getting the algorithms and data structures right.
 
-- [Input and Output](input.md): read this first;
+These are the guide's sections:
+
+- [Input and Output](input.md): **read this first**;
   it's an overview of the necessary I/O functions
 - [Foundations](foundations.md): sequence, selection, iteration,
   integers, floats, strings
