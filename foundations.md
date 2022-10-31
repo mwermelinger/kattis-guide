@@ -48,15 +48,14 @@ These problems can be solved with if-statements alone. No loops required.
    Check if people in a restaurant, each choosing a certain number of dishes,
    may end up not choosing the same dish.
    Easy to code, but requires some thinking to get the formula.
+   
+1. [R2](https://open.kattis.com/problems/r2) (3 LOC):
+   Given the average of two integers and one of them, find the other one.
 
 ## Iteration
 
 These problems require a for- or while-loop because either
 the input contains multiple lines, or the problem itself requires a loop.
-
-1. [R2](https://open.kattis.com/problems/r2) (3 LOC):
-   Given the average of two integers and one of them, find the other one.
-   The input has two integers per line, until the end of the file.
 
 1. [A Different Problem](https://open.kattis.com/problems/different) (4 LOC):
    See the [Input and Output](input.md) section for details.
